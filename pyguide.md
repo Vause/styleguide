@@ -2181,6 +2181,7 @@ including `__new__`, `__init__`, `__delattr__`, `__getattribute__`,
 Use the `format` method or the `%` operator for formatting strings, even when
 the parameters are all strings. Use your best judgment to decide between `+` and
 `%` (or `format`) though.
+Python 3.6+ users should use `f'`. After Python 3.6, there is an added performance benefit to using this syntax.
 
 ```python
 Yes: x = a + b
